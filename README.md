@@ -6,8 +6,6 @@
 
 A feature-rich custom keymap for the **Boardsource Unicorne** split ergonomic keyboard. This configuration transforms the 3x6+3 layout into a powerful 4-layer system with animated OLED displays, fixing critical bugs present in the default firmware.
 
-Perfect for developers and typists who want a fully functional split keyboard without the cursor drift issues that plague the stock configuration.
-
 ## Why This Keymap?
 
 The default Unicorne configuration has a critical issue: **`POINTING_DEVICE_ENABLE` and `ANALOG_JOYSTICK_ENABLE` are enabled by default**, causing the mouse pointer to move diagonally by itself even without a pointing device connected.
@@ -15,9 +13,10 @@ The default Unicorne configuration has a critical issue: **`POINTING_DEVICE_ENAB
 Additionally, the default firmware only supports 3 layers (0, 1, 2), and **the [QMK online configurator](https://config.qmk.fm/#/boardsource/unicorne/LAYOUT_split_3x6_3) cannot disable these features**.
 
 #### This keymap solves both problems:
-✅ Disables pointing device and joystick features in `rules.mk`
-✅ Adds a 4th layer for system controls (RGB, media keys)
-✅ Provides a clean, fully functional 4-layer layout
+- [x] Disables pointing device and joystick features in `rules.mk`
+- [x] Adds a 4th layer for system controls (RGB, media keys).
+- [x] Provides a clean, fully functional 4-layer layout.
+- [x] :crab: Adds an animated crab, the rustacean way to show you're typing fast.
 
 ## Build & Flash
 
@@ -121,4 +120,4 @@ Enter bootloader to flash firmware:
 - `config.h` - OLED and hardware configuration
 - `animations/` - OLED animation files (see `animations/README.md`)
 
-For animation customization, see `animations/README.md`.
+For animation customization, see [animations/README.md](animations/README.md).
