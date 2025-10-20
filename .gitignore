@@ -1,0 +1,26 @@
+# Compiled firmware files
+*.hex
+*.bin
+*.elf
+# Keep track the compiled firmware
+!*.uf2
+
+# Build artifacts
+*.o
+*.d
+*.su
+*.map
+
+# Editor backup files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
