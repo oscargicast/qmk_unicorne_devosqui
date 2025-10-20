@@ -99,12 +99,20 @@ Enter bootloader to flash firmware:
 
 - 4 customizable layers
 - RGB underglow & matrix support
+- **OLED displays with crab animation** 🦀
+  - Left display: Layer indicator
+  - Right display: Animated crab (idle/running based on WPM)
 - Media controls on Layer 3
 - Navigation arrows on Layer 1
 - Complete symbol set on Layer 2
+- Extensible animation system (see `animations/README.md`)
 
 ## Files
 
 - `keymap.c` - Layout definition
 - `keymaps/keymap.json` - JSON layout format
 - `rules.mk` - Feature configuration
+- `config.h` - OLED and hardware configuration
+- `animations/` - OLED animation files (see `animations/README.md`)
+
+For animation customization, see `animations/README.md`.
