@@ -1,6 +1,12 @@
 # Keymap for Boardsource Unicorne with 4 layers
 
-Custom keymap for the Boardsource Unicorne split keyboard (3x6+3 layout).
+![Boardsource Unicorne Setup](images/setup.jpg)
+
+![Animated Crab Display](images/crab.jpg)
+
+A feature-rich custom keymap for the **Boardsource Unicorne** split ergonomic keyboard. This configuration transforms the 3x6+3 layout into a powerful 4-layer system with animated OLED displays, fixing critical bugs present in the default firmware.
+
+Perfect for developers and typists who want a fully functional split keyboard without the cursor drift issues that plague the stock configuration.
 
 ## Why This Keymap?
 
